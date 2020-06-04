@@ -147,3 +147,35 @@ body {
 }
 
 /* flexbox direction row but flip to column for mobile responsiveness */
+@media only screen and (max-width: 540px) {
+  #wrapper-main {
+    height: 30vh;
+    width: 75vw;
+  }
+  #drum-machine {
+    height: 30vh;
+    width: 75vw;
+  }
+
+  .drum-pad {
+    font-size: 6vw;
+    padding: 3.5vw;
+  }
+
+  .container-display {
+    font-size: 2.6vw;
+    width: 20vw;
+  }
+
+  #pitch-bar {
+    width: 15vw;
+  }
+
+  #label-pitch {
+    font-size: 5vw;
+  }
+
+  #volume-bar {
+    height: 25vh;
+  }
+}
